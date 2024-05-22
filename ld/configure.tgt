@@ -89,6 +89,11 @@ aarch64-*-elf | aarch64-*-rtems* | aarch64-*-genode*)
 			targ_emul=aarch64elf
 			targ_extra_emuls="aarch64elf32 aarch64elf32b aarch64elfb armelf armelfb"
 			;;
+aarch64-*-helix*)
+			target_emul=aarch64elf
+			targ_extra_emuls="aarch64elf32 aarch64elf32b aarch64elfb armelf armelfb"
+
+			;;
 aarch64-*-cloudabi*)	targ_emul=aarch64cloudabi
 			targ_extra_emuls=aarch64cloudabib
 			;;
