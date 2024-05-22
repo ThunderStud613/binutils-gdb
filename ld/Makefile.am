@@ -455,6 +455,7 @@ ALL_64_EMULATION_SOURCES = \
 	eelf64ltsmip_fbsd.c \
 	eelf64mmix.c \
 	eelf64ppc.c \
+	eelf64helix.c \
 	eelf64ppc_fbsd.c \
 	eelf64rdos.c \
 	eelf64tilegx.c \
